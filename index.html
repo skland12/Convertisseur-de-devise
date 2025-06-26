@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Convertisseur de devises</title>
+         <link rel="stylesheet" href="styleconvert.css"/>
+    </head>
+    <body>
+        <h1>CONVERTISSEUR DE DEVISES</h1>
+        <div class="container">
+            <div class="cont2">
+                <br>
+                    <label for="montant">Montant à convertir:</label>
+                    <br>
+                    <select id="DD" name="devise">
+                        <option value="">Choisir une devise</option>
+                        <option value="FCFA">FCFA</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <br> <br>
+                    <input id="MD" type="number" placeholder="Montant à convertir">
+                    <br><br>
+                    <label>Montant converti:</label>
+                    <br>
+                    <select id="DA" name="devise">
+                        <option value="">Choisir une devise</option>
+                        <option value="FCFA">FCFA</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <br><br>
+                    <input id="MA" type="text" readonly>
+                    <p id="RM"></p>
+            </div>
+            <script src="jsconvert.js"></script>
+            <br>
+        </div>
+
+        
+    </body>
+</html>
